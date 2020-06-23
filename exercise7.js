@@ -13,7 +13,11 @@
   
 //   module.exports = reduce
 
+// ## Arguments
 
+//   * arr: An Array to reduce over
+//   * fn: Function to use as the reduction step. Like regular Array#reduce, this function must be passed previousValue, currentValue, index and the array we're iterating over.
+//   * init: Initial value of the reduction. Unlike Array#reduce, this value is required (and you may assume it will always be supplied).
 
   function reduce(arr, fn, initial) {
     return (function reduceOne(index, value) {
