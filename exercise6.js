@@ -1,3 +1,19 @@
+/*
+var inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']
+    
+    console.log(countWords(inputWords))
+    
+    // =>
+    // {
+    //   Apple: 2,
+    //   Banana: 1,
+    //   Durian: 3
+    // }
+*/
+
+
+
+
 function countWords(inputWords) {
     // SOLUTION GOES HERE
     let res = inputWords.reduce(function(accumulator,currentValue) {
