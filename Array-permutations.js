@@ -29,17 +29,4 @@ var permute = function(nums=[1,2,3],set=[],answers=[]){
   console.log(permute());
 
 
-  // Filter words from rawlist
-  var filterWords = function(rawText,wordsToRemove){
-    var rawList = rawText.split('');
-    wordsToRemove = [].concat(wordsToRemove);
-
-    wordsToRemove.forEach((word) => { 
-      rawList = rawList.filter((raw) => {
-        raw.toLowerCase() !== word.toLowerCase()
-      });
-    });
-    return rawList.join('');
-  }
-
-  module.exports = filterWords;
+ 
