@@ -12,3 +12,22 @@
   }
 
   module.exports = filterWords;
+
+  filterWords('hello all I am alive',['I','am']);
+
+  // Now if we have an array of rawText instead of single string
+  /*
+
+  rawText = [
+      "Hello world I am alive",
+      "turbo booster works for now",
+      "monster inc is the best movie ever"
+  ]
+
+var output = rawText.map(function(text) {
+    return filterWords(text,wordsToRemove)
+})
+
+console.log(output);
+
+*/
